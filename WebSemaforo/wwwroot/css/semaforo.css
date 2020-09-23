@@ -1,0 +1,40 @@
+﻿.semaforos {
+    /*Passar autura para o css da div*/
+    height: 400px;
+}
+.circulo, .semaforoVerdeLigado, .semaforoAmareloLigado, .semaforoVermelhoLigado, .semaforoVerde, .semaforoAmarelo, .semaforoVermelho {
+    width: 100px;
+    height: 100px; /*autura 100% da div*/
+    border-radius: 50%; /*deixar a div circular*/
+    margin: 1%; /*espassamento entre as divs do semaforo*/
+    margin-left: 34%;
+    transition: 1.0s ease;
+}
+/*trabalhar com herança no css. podemos colocar todas as classes que vem a baixo 
+da classe circulo e acrecentalas a classe circulo
+*/
+.semaforoVerde {
+    background-color: #335c39;
+}
+.semaforoAmarelo {
+    background-color: #7a713e;
+}
+.semaforoVermelho {
+    background-color: #6d4242;
+}
+/*classes semaforos ligados*/
+.semaforoVerdeLigado {
+    background-color: #00ff21;
+}
+
+.semaforoAmareloLigado {
+    background-color: #ffd800;
+}
+
+.semaforoVermelhoLigado {
+    background-color: #ff0000;
+}
+/*pare*/
+.classePare {
+    background-color: #dd6767;
+}
